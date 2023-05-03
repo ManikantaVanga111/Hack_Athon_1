@@ -30,7 +30,7 @@ namespace Hackthon_test_1
         }
         public void ViewDetailsId()
         {
-            Console.WriteLine("Enter details");
+            Console.WriteLine("Enter id");
             int id=Convert.ToInt32(Console.ReadLine());
             foreach(It it in its)
             {
@@ -53,7 +53,7 @@ namespace Hackthon_test_1
         }
        public void UpdateNote()
        {
-            Console.WriteLine("Enter details");
+            Console.WriteLine("Enter id");
             int id = Convert.ToInt32(Console.ReadLine());
             foreach (It it in its)
             {
@@ -68,7 +68,7 @@ namespace Hackthon_test_1
        }
         public bool DeleteNote()
         {
-            Console.WriteLine("Enter details");
+            Console.WriteLine("Enter id");
             int id = Convert.ToInt32(Console.ReadLine());
             foreach(It it in its)
             {
